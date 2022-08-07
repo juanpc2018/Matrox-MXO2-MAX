@@ -11,7 +11,7 @@ AES/EBU, Surround Analog Audio io.
 
 MAX DSP h264 encoder.
 similar to Matrox CompressHD PCIe
-better than elgato Turbo h264 usb.
+better than elgato Turbo h.264 HD usb.
 
 problem is driver support:
 Matrox does Not want to realease Developer SDK to create linux drivers or fix bugs.
