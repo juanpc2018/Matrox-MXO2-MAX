@@ -41,7 +41,7 @@ but official Matrox H264 Max Recorder works ok.
 OSX Official Matrox Ventura capture is very outdated, OSX SnowLeopard, OSX Lion or OSX Mountain Lion,
 maybe OSX Mavericks.
 
-Matrox compatibility .pdf claims Teste on OSX Yosemite 10.10.4
+Matrox compatibility .pdf claims Tested on OSX Yosemite 10.10.4
 Ventura Capture is very bad, 
 QuickTime Player Recorder or OBS are much better.
 
