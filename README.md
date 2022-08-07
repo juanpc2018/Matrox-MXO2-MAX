@@ -79,7 +79,7 @@ Matrox ExpressCard34 + Sonnet ExpressCard Pro to Thunderbolt2 adapter.
 Matrox Thunderbolt2 adapter / dock.
 
 
-MXO2 Rack MAX had a nice stable DDS internal digital clock generator,
+MXO2 Rack MAX has a nice stable DDS internal digital clock generator,
 can work with unstable SD & HDMI signals and reclock,
 similar to AIDA G-CON HDMI
 also has Genlock input and passthrough to reclock using a much higher quality clock with true TCXO or OCXO.
