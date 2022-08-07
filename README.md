@@ -10,10 +10,10 @@ similar to Blackmagic UltraStudio Extreme 4k, but FullHD.
 i/o:
 SDI & HDMI 1080p3O, 
 NTSC, Analog S-Video, Component & Composite,
-AES/EBU, Surround Analog Audio io.
+unbalanced AES/EBU, Surround Analog Audio..
 
-MAX DSP h264 encoder.
-similar to Matrox CompressHD PCIe
+MAX DSP h264 encode:
+similar to Matrox CompressHD PCIe, 
 better than elgato Turbo h.264 HD usb.
 
 problem is driver support:
