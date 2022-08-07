@@ -14,7 +14,7 @@ similar to Matrox CompressHD PCIe
 better than elgato Turbo h.264 HD usb.
 
 problem is driver support:
-Matrox does Not want to realease Developer SDK to create linux drivers or fix bugs.
+Matrox does Not want to realease Developer SDK to create linux drivers or fix bugs or update drivers.
 
 in OSX:
 there are 2 drivers,
