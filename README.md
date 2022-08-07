@@ -5,7 +5,7 @@ O2 = Oxygen
 MAX = DSP HW h.264 encoder.
 
 was a very nice AV Capture Export Device,
-SDI y HDMI 1080p3O.
+SDI & HDMI 1080p3O.
 NTSC, Analog S-Video, Component & Composite,
 AES/EBU, Surround Analog Audio io.
 
