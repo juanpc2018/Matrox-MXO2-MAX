@@ -12,7 +12,7 @@ SDI & HDMI 1080p3O,
 NTSC, Analog S-Video, Component & Composite,
 unbalanced AES/EBU, Surround Analog Audio..
 
-MAX DSP h264 encode:
+MAX DSP h.264 encoder:
 similar to Matrox CompressHD PCIe, 
 better than elgato Turbo h.264 HD usb.
 
