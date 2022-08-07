@@ -27,8 +27,9 @@ Official has MAX support, and direct App support:
 AVID ProTools HD, MediaComposer, Adobe MediaEncoder, FinalCutPro, Compressor, and others.
 No Quicktime support.
 
-Unofficial does Not have MAX,
-but has QuickTime support, for QuickTimePlayer Recorder, OBS, Zoom, etc...
+Unofficial designed for Yosemite works upto OSX HighSierra,
+does Not have MAX,
+has QuickTime support, for QuickTimePlayer Recorder, OBS, Zoom, etc...
 
 Windows 8.1 y W1O:
 to install drivers Requires to disable:
