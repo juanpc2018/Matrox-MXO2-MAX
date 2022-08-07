@@ -2,7 +2,7 @@ Matrox-MXO2-MAX
 
 O2 = Oxygen
 
-MAX = optonal DSP HW h.264 encoder. *probably just a different Firmware, Non-MAX HW may be the same.
+MAX = optonal DSP HW h.264 encoder. *probably just a different Firmware, Non-MAX HW may be the same. Unconfirmed.
 
 was a very nice AV Capture Export Device,
 similar to Blackmagic UltraStudio Extreme 4k, but FullHD.
