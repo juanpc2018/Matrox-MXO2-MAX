@@ -5,7 +5,10 @@ O2 = Oxygen
 MAX = DSP HW h.264 encoder.
 
 was a very nice AV Capture Export Device,
-SDI & HDMI 1080p3O.
+similar to Blackmagic UltraStudio Extreme 4k, but FullHD.
+
+i/o:
+SDI & HDMI 1080p3O, 
 NTSC, Analog S-Video, Component & Composite,
 AES/EBU, Surround Analog Audio io.
 
