@@ -39,7 +39,7 @@ in OBS Windows webcam emulator does Not have sound. </br>
 but official Matrox H264 Max Recorder works ok. </p>
 
 In Windows, there are 2 ways to Inject Video to OBS for Live Stream. </br>
-A) Directly, Matrox Webcam Emulator, Requires CPU for Recording + CPU or GPU for Streaming. </br>
+A) Directly, Matrox Webcam Emulator, Requires CPU for Recording + CPU or GPU for Streaming.*Not Recomended. </br>
 B) Recoding to HDD/SSD with Matrox MAX h.264 to a known folder, known file name, </br>
 then create a VLC source in OBS [+] Add File, select File, Play Always, No Loop. </br>
 That way OBS will Play/Stream the MAX encoded file, only requires GPU for Streaming, No CPU. </br>
