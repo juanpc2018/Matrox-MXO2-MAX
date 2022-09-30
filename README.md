@@ -53,11 +53,13 @@ Matrox is 1080p30 & Pro Recorder is 1080p60, <br>
 when using UHD 4K camera SDI/HDMI, Scaling can be done in different ways: </br>
 Directly on Camera, Droping Bits & Frames, Unknown quality. </br>
 With a HW Scaler like science-image.com Flow 4K, FPGA custom algorithm </br>
-Recording from HDMI/SDI to NDI is possible in OBS, but requires CPU & GPU for Recording & Streaming, </br>
-CPU is less efficient, requires fans at 2000RPM, power hungry, Not efficient. </br>
-The idea is to Avoid CPU at all cost, NDI is for longer than SDI cable compatible with IP Network, </br>
-NDI requires 2-units to Encode & Decode to/from IP Network to/from HDMI/SDI. </br>
-Using the CPU for Encoding h.264 / h.265 / VP9 Makes absolutely No sense.</p>
+Recording from 4KI HDMI/SDI to NDI in OBS, doing 4K to FHD scaling in CPU, </br>
+but also requires more CPU & GPU for Recording & Streaming. </br>
+CPU is less efficient, requires fans at 2000RPM, power hungry. </br>
+The idea is to Avoid CPU at all cost, NDI is for longer than SDI cable, compatible with IP 12G SFP+ Network </br>
+Basically NDI is to replace BNC for Lc-Lc FiberOptic OM1/2/3/4/5. </br>
+NDI requires 2-units to Encode & Decode from/to IP Network to/from HDMI/SDI. </br>
+Using the CPU for Encoding h.264 / h.265 / VP9 Makes No sense. </p>
 
 OSX Matrox Ventura capture is very outdated: </br>
 OSX SnowLeopard, OSX Lion or OSX Mountain Lion, maybe OSX Mavericks. </br>
