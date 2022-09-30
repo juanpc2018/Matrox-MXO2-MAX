@@ -1,38 +1,37 @@
-Matrox-MXO2-MAX
+## Matrox MXO2 with MAX </p>
 
-O2 = Oxygen
+O2 = Oxygen </br>
+MAX = Optonal DSP HW h.264 encoder *probably just a different Firmware, Non-MAX HW may be the same, *Unconfirmed. </p>
 
-MAX = optonal DSP HW h.264 encoder. *probably just a different Firmware, Non-MAX HW may be the same. Unconfirmed.
+was a very nice AV Capture Export Device, </br>
+similar to Blackmagic UltraStudio Extreme 4k, but FullHD. </p>
 
-was a very nice AV Capture Export Device,
-similar to Blackmagic UltraStudio Extreme 4k, but FullHD.
+i/o: </br>
+SDI & HDMI 1080p3O </br>
+NTSC, Analog S-Video, Component & Composite, </br>
+unbalanced AES/EBU, Surround Analog Audio. </p>
 
-i/o:
-SDI & HDMI 1080p3O, 
-NTSC, Analog S-Video, Component & Composite,
-unbalanced AES/EBU, Surround Analog Audio..
+MAX DSP h.264 encoder: </br>
+similar to Matrox CompressHD PCIe,  </br>
+better than elgato Turbo h.264 HD usb. </p>
 
-MAX DSP h.264 encoder:
-similar to Matrox CompressHD PCIe, 
-better than elgato Turbo h.264 HD usb.
+problem is driver support: </br>
+Matrox does Not want to realease Developer SDK to create linux drivers or fix bugs or update drivers. </p>
 
-problem is driver support:
-Matrox does Not want to realease Developer SDK to create linux drivers or fix bugs or update drivers.
+in OSX: </br>
+there are 2 drivers, </br>
+Official v4.6 and Vosic Unofficial driver. </p>
 
-in OSX:
-there are 2 drivers,
-Official v4.6 and Vosic Unofficial driver.
+Official has MAX support, and direct App support: </br>
+AVID ProTools HD, MediaComposer, Adobe MediaEncoder, FinalCutPro, Compressor, and others. </br>
+No Quicktime support. </p>
 
-Official has MAX support, and direct App support:
-AVID ProTools HD, MediaComposer, Adobe MediaEncoder, FinalCutPro, Compressor, and others.
-No Quicktime support.
+Unofficial designed for Yosemite works upto OSX HighSierra, </br>
+does Not have MAX, </br>
+has QuickTime support, for QuickTimePlayer Recorder, OBS, Zoom, etc... </p>
 
-Unofficial designed for Yosemite works upto OSX HighSierra,
-does Not have MAX,
-has QuickTime support, for QuickTimePlayer Recorder, OBS, Zoom, etc...
-
-Windows 8.1 y W1O:
-to install drivers Requires to disable:
+Windows 8.1 y W1O: </br>
+to install drivers Requires to disable: </br>
 Signature Driver Enforcement. </p>
 
 in OBS Windows webcam emulator does Not have sound. </br>
@@ -67,36 +66,33 @@ Matrox compatibility .pdf claims Tested on OSX Yosemite 10.10.4 </br>
 Ventura Capture is very bad, </br>
 QuickTime Player Recorder or OBS for OSX are much better. </p>
 
-OSX Oficial driver v4.6.O with MAX.
-works upto:
-OSX HighSierra 1O.13.6
-FinalCutPro 1O.4.3
-Apple Compressor 4.4.1
-Adobe Media Encoder CS6, CC.2O14, CC.2O15 No Mercury.
-No Quicktime.
-No Mojave 1O.14.0
+OSX Oficial driver v4.6.O with MAX works upto: </br>
+OSX HighSierra 1O.13.6 </br>
+FinalCutPro 1O.4.3 </br>
+Apple Compressor 4.4.1 </br>
+Adobe Media Encoder CS6, CC.2O14, CC.2O15 No Mercury. </br>
+No Quicktime. </br>
+No Mojave 1O.14.0 </p>
 
-OSX Mohave 10.14 requires 64-Bit Only drivers, No 32-Bit/64-Bit hybrid driver.
+OSX Mohave 10.14 requires 64-Bit Only drivers, No 32-Bit/64-Bit hybrid driver. </br>
+MAX can encode UHD4K h264 in Adobe CS6 </p>
 
-MAX can encode UHD4K h264 in Adobe CS6
+h.264 5Mbps VBR Max 7.5Mbps is recomended for YouTube, required for: LBRY, Odysee, etc... </p>
 
-h.264 5Mbps VBR Max 7.5Mbps is recomended for YouTube, required for: LBRY, Odysee, etc...
+QuickTime Recorder HighQuality mode records in ProRes. </p>
 
-QuickTime Recorder HighQuality mode records in ProRes.
+Transcoding is better in OSX with FinalCutPro + Compressor + GPU + MAX </br>
+Very fast & Silent, very power efficient. </br>
+standard CPU encoding requires Fans at 2000rpm to avoid thermal throtling. </br>
+with MacsFanControl. </p>
 
-Transcoding is better in OSX with FinalCutPro + Compressor + GPU + MAX
-Very fast & Silent, very power efficient.
+DSP is much better than CPU. </br>
+but Handbrake.fr does Not support MAX h264 codec. </p>
 
-standard CPU encoding requires Fans at 2000rpm to avoid thermal throtling.
-with MacsFanControl.
-
-DSP is much better than CPU.
-but Handbrake.fr does Not support MAX h264 codec.
-
-works with:
-Matrox PCIe card
-Matrox ExpressCard34 + Sonnet ExpressCard Pro to Thunderbolt2 adapter.
-Matrox Thunderbolt2 adapter / dock.
+works with: </br>
+Matrox PCIe card </br>
+Matrox ExpressCard34 + Sonnet ExpressCard Pro to Thunderbolt2 adapter. </br>
+Matrox Thunderbolt2 adapter / dock. </p>
 
 
 MXO2 Rack MAX has a nice stable DDS internal digital clock generator,
