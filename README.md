@@ -60,7 +60,8 @@ CPU is less efficient, requires fans at 2000RPM, power hungry. </br>
 The idea is to Avoid CPU at all cost, NDI is for longer than SDI cable, compatible with IP 12G SFP+ Network </br>
 Basically NDI is to replace BNC for Lc-Lc FiberOptic OM1/2/3/4/5. </br>
 NDI requires 2-units to Encode & Decode from/to IP Network to/from HDMI/SDI. </br>
-Using the CPU for Encoding h.264 / h.265 / VP9 Makes No sense, NDI is Not a replacement for DSP HW encoding. </p>
+Using the CPU for Encoding h.264 / h.265 / VP9 Makes No sense, NDI is Not a replacement for DSP HW encoding. </br>
+science-image.com Flow 4K is a cheaper versions of NDI Studio 4K-SH, Flow4K has No Tally Lioght and No NDI encoder/decoder. </p>
 
 OSX Matrox Ventura capture is very outdated: </br>
 OSX SnowLeopard, OSX Lion or OSX Mountain Lion, maybe OSX Mavericks. </br>
