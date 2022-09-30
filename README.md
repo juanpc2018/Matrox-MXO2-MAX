@@ -43,7 +43,12 @@ A) Directly, Matrox Webcam Emulator, Requires CPU for Recording + CPU or GPU for
 B) Recoding to HDD/SSD with Matrox MAX h.264 to a known folder, known file name, </br>
 then create a VLC source in OBS [+] Add File, select File, Play Always, No Loop. </br>
 That way OBS will Play/Stream the MAX encoded file, only requires GPU for Streaming, No CPU. </br>
-Matrox MAX h.264 for Windows is best option for recording h264 with MAX. </p>
+Matrox MAX h.264 for Windows is best option for recording with Matroc MAX. </br>
+similar 2-software to/from SSD method is required for BlackMagic h.264 Pro Recorder + MXPTiny for Windows. </br>
+what is Better? BlackMagic h.264 Pro Recorder or Matrox MXO2? </br>
+MXO2 has Near 0-Latency HDMI/SDI Output </br>
+BlackMagic Pro Recorder requires an HDMI/SDI Y-Splitter at the input, </br>
+IF Y-HDMI/SDI Splitter is 8-Bit, the extra 10/12-Bits are lost. </p>
 
 OSX Matrox Ventura capture is very outdated, OSX SnowLeopard, OSX Lion or OSX Mountain Lion,
 maybe OSX Mavericks.
