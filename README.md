@@ -33,12 +33,19 @@ has QuickTime support, for QuickTimePlayer Recorder, OBS, Zoom, etc...
 
 Windows 8.1 y W1O:
 to install drivers Requires to disable:
-Signature Driver Enforcement.
+Signature Driver Enforcement. </p>
 
-in OBS Windows webcam emulator does Not have sound.
-but official Matrox H264 Max Recorder works ok.
+in OBS Windows webcam emulator does Not have sound. </br>
+but official Matrox H264 Max Recorder works ok. </p>
 
-OSX Official Matrox Ventura capture is very outdated, OSX SnowLeopard, OSX Lion or OSX Mountain Lion,
+In Windows, there are 2 ways to Inject Video to OBS for Live Stream. </br>
+A) Directly, Matrox Webcam Emulator, Requires CPU for Recording + CPU or GPU for Streaming. </br>
+B) Recoding to HDD/SSD with Matrox MAX h.264 to a known folder, known file name, </br>
+then create a VLC source, [+] Add File, select File, Play Always, No Loop. </br>
+That way OBS will Play/Stream the MAX encoded file, only requires GPU for Streaming, No CPU. </br>
+Matrox MAX h.264 for Windows is best option for recording h264 with MAX. </p>
+
+OSX Matrox Ventura capture is very outdated, OSX SnowLeopard, OSX Lion or OSX Mountain Lion,
 maybe OSX Mavericks.
 
 Matrox compatibility .pdf claims Tested on OSX Yosemite 10.10.4
@@ -61,8 +68,6 @@ MAX can encode UHD4K h264 in Adobe CS6
 h.264 5Mbps VBR Max 7.5Mbps is recomended for YouTube, required for: LBRY, Odysee, etc...
 
 QuickTime Recorder HighQuality mode records in ProRes.
-
-Matrox MAX h.264 for Windows is best option for recording h264 with MAX.
 
 Transcoding is better in OSX with FinalCutPro + Compressor + GPU + MAX
 Very fast & Silent, very power efficient.
