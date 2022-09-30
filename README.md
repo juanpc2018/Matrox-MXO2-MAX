@@ -26,16 +26,16 @@ Official has MAX support, and direct App support: </br>
 AVID ProTools HD, MediaComposer, Adobe MediaEncoder, FinalCutPro, Compressor, and others. </br>
 No Quicktime support. </p>
 
-Unofficial designed for Yosemite works upto OSX HighSierra, </br>
+Unofficial driver works from Yosemite 10.10 upto OSX HighSierra 10.13.6 </br>
 does Not have MAX, </br>
-has QuickTime support, for QuickTimePlayer Recorder, OBS, Zoom, etc... </p>
+but has QuickTime support for QuickTimePlayer Recorder, OBS, Zoom, etc... </p>
 
-Windows 8.1 y W1O: </br>
+Windows 8.1 y W10: </br>
 to install drivers Requires to disable: </br>
 Signature Driver Enforcement. </p>
 
-in OBS Windows webcam emulator does Not have sound. </br>
-but official Matrox H264 Max Recorder works ok. </p>
+in OBS Windows webcam emulator does Not have sound, common problem in OBS for Windows. </br>
+but official Matrox h.264 Max Recorder works ok. </p>
 
 In Windows, there are 2 ways to Inject Video to OBS for Live Stream. </br>
 A) Directly, Matrox Webcam Emulator, Requires CPU for Recording + CPU or GPU for Streaming.*Not Recomended. </br>
