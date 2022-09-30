@@ -42,23 +42,25 @@ A) Directly, Matrox Webcam Emulator, Requires CPU for Recording + CPU or GPU for
 B) Recoding to HDD/SSD with Matrox MAX h.264 to a known folder, known file name, </br>
 then create a VLC source in OBS [+] Add File, select File, Play Always, No Loop. </br>
 That way OBS will Play/Stream the MAX encoded file, only requires GPU for Streaming, No CPU at all. </br>
-Matrox MAX h.264 for Windows is best option for recording with Matrox MAX. </br>
-similar 2-software to/from SSD method is required for BlackMagic h.264 Pro Recorder + MXPTiny for Windows. </br>
-what is Better? BlackMagic h.264 Pro Recorder or Matrox MXO2? </br>
-MXO2 has Near 0-Latency HDMI/SDI Output </br>
+Matrox MAX h.264 for Windows is best option for recording with MAX DSP. </br>
+similar 2-software to/from SSD method is required for BlackMagic h.264 Pro Recorder *also DSP + MXPTiny for Windows. </p>
+
+what is Better? </br>
+BlackMagic h.264 Pro Recorder or Matrox MAX? </br>
+MXO2 Rack has Near 0-Latency HDMI/SDI Monitor Output. </br>
 BlackMagic Pro Recorder requires an HDMI/SDI Y-Splitter at the input, </br>
-IF Y-HDMI/SDI Splitter is 8-Bit, the extra 10/12-Bits are lost. </br>
-Matrox is 1080p30 & Pro Recorder is 1080p60, <br>
+IF Y-HDMI/SDI Splitter is 8-Bit, the extra 10/12-Bits are lost, </br>
+MXO2 is 1080p30 & Pro Recorder is 1080p60 </br>
 when using UHD 4K camera SDI/HDMI, Scaling can be done in different ways: </br>
 Directly on Camera, Droping Bits & Frames, Unknown quality. </br>
-With a HW Scaler like science-image.com Flow 4K, FPGA custom algorithm </br>
-Recording from 4KI HDMI/SDI to NDI in OBS, doing 4K to FHD scaling in CPU, </br>
+With dedicated HW Scaler like science-image.com Flow 4K, FPGA custom algorithm or similar DECIMATOR 12G-CROSS 4K </br>
+Recording from 4K HDMI/SDI to NDI in OBS, scaling is done in CPU </br>
 but also requires more CPU & GPU for Recording & Streaming. </br>
 CPU is less efficient, requires fans at 2000RPM, power hungry. </br>
 The idea is to Avoid CPU at all cost, NDI is for longer than SDI cable, compatible with IP 12G SFP+ Network </br>
 Basically NDI is to replace BNC for Lc-Lc FiberOptic OM1/2/3/4/5. </br>
 NDI requires 2-units to Encode & Decode from/to IP Network to/from HDMI/SDI. </br>
-Using the CPU for Encoding h.264 / h.265 / VP9 Makes No sense. </p>
+Using the CPU for Encoding h.264 / h.265 / VP9 Makes No sense, NDI is Not a replacement for DSP HW encoding. </p>
 
 OSX Matrox Ventura capture is very outdated: </br>
 OSX SnowLeopard, OSX Lion or OSX Mountain Lion, maybe OSX Mavericks. </br>
