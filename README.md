@@ -48,14 +48,22 @@ similar 2-software to/from SSD method is required for BlackMagic h.264 Pro Recor
 what is Better? BlackMagic h.264 Pro Recorder or Matrox MXO2? </br>
 MXO2 has Near 0-Latency HDMI/SDI Output </br>
 BlackMagic Pro Recorder requires an HDMI/SDI Y-Splitter at the input, </br>
-IF Y-HDMI/SDI Splitter is 8-Bit, the extra 10/12-Bits are lost. </p>
+IF Y-HDMI/SDI Splitter is 8-Bit, the extra 10/12-Bits are lost. </br>
+Matrox is 1080p30 & Pro Recorder is 1080p60, <br>
+when using UHD 4K camera SDI/HDMI, Scaling can be done in different ways: </br>
+Directly on Camera, Droping Bits & Frames, Unknown quality. </br>
+With a HW Scaler like science-image.com Flow 4K, FPGA custom algorithm </br>
+Recording from HDMI/SDI to NDI is possible in OBS, but requires CPU & GPU for Recording & Streaming, </br>
+CPU is less efficient, requires fans at 2000RPM, power hungry, Not efficient. </br>
+The idea is to Avoid CPU at all cost, NDI is for longer than SDI cable compatible with IP Network, </br>
+NDI requires 2-units to Encode & Decode to/from IP Network to/from HDMI/SDI. </br>
+Using the CPU for Encoding h.264 / h.265 / VP9 Makes absolutely No sense.</p>
 
-OSX Matrox Ventura capture is very outdated, OSX SnowLeopard, OSX Lion or OSX Mountain Lion,
-maybe OSX Mavericks.
-
-Matrox compatibility .pdf claims Tested on OSX Yosemite 10.10.4
-Ventura Capture is very bad, 
-QuickTime Player Recorder or OBS are much better.
+OSX Matrox Ventura capture is very outdated: </br>
+OSX SnowLeopard, OSX Lion or OSX Mountain Lion, maybe OSX Mavericks. </br>
+Matrox compatibility .pdf claims Tested on OSX Yosemite 10.10.4 </br>
+Ventura Capture is very bad, </br>
+QuickTime Player Recorder or OBS for OSX are much better. </p>
 
 OSX Oficial driver v4.6.O with MAX.
 works upto:
