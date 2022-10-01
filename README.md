@@ -22,15 +22,15 @@ in OSX: </br>
 there are 2 drivers, </br>
 Official v4.6 and Vosic Unofficial driver. </p>
 
-Official has MAX support, and direct App support: </br>
+Official has MAX support, works from Yosemite 10.10 upto OSX HighSierra 10.13.6 and direct App support: </br>
 AVID ProTools HD, MediaComposer, Adobe MediaEncoder, FinalCutPro, Compressor, and others. </br>
 No Quicktime support. </p>
 
 Unofficial driver works from Yosemite 10.10 upto OSX HighSierra 10.13.6 </br>
-does Not have MAX, </br>
-but has QuickTime support for QuickTimePlayer Recorder, OBS, Zoom, etc... </p>
+does Not have MAX </br>
+but has QuickTime support for QuickTimePlayer Recorder, OBS, Zoom, vMix, etc... </p>
 
-Windows 8.1 y W10: </br>
+Windows 8.1 & W10: </br>
 to install drivers Requires to disable: </br>
 Signature Driver Enforcement. </p>
 
@@ -42,10 +42,10 @@ A) Directly, Matrox Webcam Emulator, Requires CPU for Recording + CPU or GPU for
 B) Recoding to HDD/SSD with Matrox MAX h.264 to a known folder, known file name, </br>
 then create a VLC source in OBS [+] Add File, select File, Play Always, No Loop. </br>
 That way OBS will Play/Stream the MAX encoded file, only requires GPU for Streaming, No CPU at all. </br>
-Matrox MAX h.264 for Windows is best option for recording with MAX DSP. </br>
+Matrox MAX h.264 for Windows is the best option for recording with MAX DSP. </br>
 similar 2-software to/from SSD method is required for BlackMagic h.264 Pro Recorder *also DSP + MXPTiny for Windows. </p>
 
-what is Better? </br>
+whats Better? </br>
 BlackMagic h.264 Pro Recorder or Matrox MAX? </br>
 MXO2 Rack has Near 0-Latency HDMI/SDI Monitor Output. </br>
 BlackMagic Pro Recorder requires an HDMI/SDI Y-Splitter at the input, </br>
