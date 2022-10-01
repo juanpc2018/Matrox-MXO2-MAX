@@ -77,7 +77,7 @@ Adobe Media Encoder CS6, CC.2O14, CC.2O15 No Mercury. </br>
 No Quicktime. </br>
 No Mojave 1O.14.0 </p>
 
-OSX Mohave 10.14 requires 64-Bit Only drivers, No 32-Bit/64-Bit hybrid driver. </br>
+OSX Mojave 10.14 requires 64-Bit Only drivers, No 32-Bit/64-Bit hybrid driver. </br>
 MAX can encode UHD4K h264 in Adobe CS6 </p>
 
 h.264 5Mbps VBR Max 7.5Mbps is recomended for YouTube, required for: LBRY, Odysee, etc... </p>
